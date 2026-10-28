@@ -7,7 +7,7 @@ public class Triangle15 {
         int n = sc.nextInt();
         int i = 0;
         while (i <= n){
-            System.out.print("[i = " + i + "] ");
+            System.out.print("[i = " + i + "] "); // debug sementara
             int j = 0;
             while (j <= i){
                 System.out.print("*");
