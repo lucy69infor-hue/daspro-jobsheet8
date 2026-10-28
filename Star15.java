@@ -7,7 +7,7 @@ public class Star15{
         int n = sc.nextInt();
 
 
-        for (int i = 0; i <= n; i++ ){
+        for (int i = 2; i <= n; i += 2 ){
             System.out.print("*");
         }
         System.out.println();
