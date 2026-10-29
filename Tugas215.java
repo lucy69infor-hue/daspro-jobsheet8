@@ -5,15 +5,18 @@ public class Tugas215 {
         
         System.out.print("Masukkan Nilai N : ");
         int n = sc.nextInt();
+        int total = 0;
        
 
         for (int i = 1; i <= n; i++){     
             for (int j = 1; j <= n; j++){
                 int hasil = j * i;
+                total += hasil;
                 System.out.printf("%4d", hasil);
             }
         System.out.println();
         }
+        System.out.print("Jumlah seluruh angka : " + total);
         sc.close();
     }
 
